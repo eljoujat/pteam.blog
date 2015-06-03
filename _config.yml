@@ -21,4 +21,4 @@ categories_path: categories.html
 tags_path: tags.html
 authors_path: authors.html
 
-BASE_PATH:
+BASE_PATH:pteam.blog
