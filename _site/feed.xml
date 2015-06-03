@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>Blog de l'equipe Printemps</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>The Passionate Prgmatic Programmer</title>
+				<description>&lt;h2 id=&quot;care-about-your-craft-2&quot;&gt;Care About Your Craft 2&lt;/h2&gt;
+&lt;p&gt;Why spend your life developing software unless you care about doing it well?&lt;/p&gt;
+
+&lt;h2 id=&quot;think-about-your-work-3&quot;&gt;Think! About Your Work 3&lt;/h2&gt;
+&lt;p&gt;Turn off the autopilot and take control. Constantly critique and appraise your work.&lt;/p&gt;
+
+&lt;h2 id=&quot;provide-options-dont-make-lame-excuses-5&quot;&gt;Provide Options, Don’t Make Lame Excuses 5&lt;/h2&gt;
+&lt;p&gt;Instead of excuses, provide options. Don’t say it can’t be done; explain what can be done.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-live-with-broken-windows-7&quot;&gt;Don’t Live with Broken Windows 7&lt;/h2&gt;
+&lt;p&gt;Fix bad designs, wrong decisions, and poor code when you see them.&lt;/p&gt;
+
+&lt;h2 id=&quot;be-a-catalyst-for-change-6&quot;&gt;Be a Catalyst for Change 6&lt;/h2&gt;
+&lt;p&gt;You can’t force change on people. Instead, show them how the future might be and help them participate in creating it.&lt;/p&gt;
+
+&lt;h2 id=&quot;remember-the-big-picture-5&quot;&gt;Remember the Big Picture 5&lt;/h2&gt;
+&lt;p&gt;Don’t get so engrossed in the details that you forget to check what’s happening around you.&lt;/p&gt;
+
+&lt;h2 id=&quot;make-quality-a-requirements-issue-7&quot;&gt;Make Quality a Requirements Issue 7&lt;/h2&gt;
+&lt;p&gt;Involve your users in determining the project’s real quality requirements.&lt;/p&gt;
+
+&lt;h2 id=&quot;invest-regularly-in-your-knowledge-portfolio-9&quot;&gt;Invest Regularly in Your Knowledge Portfolio 9&lt;/h2&gt;
+&lt;p&gt;Make learning a habit.&lt;/p&gt;
+
+&lt;h2 id=&quot;critically-analyze-what-you-read-and-hear-7&quot;&gt;Critically Analyze What You Read and Hear 7&lt;/h2&gt;
+&lt;p&gt;Don’t be swayed by vendors, media hype, or dogma. Analyze information in terms of you and your project.&lt;/p&gt;
+
+&lt;h2 id=&quot;its-both-what-you-say-and-the-way-you-say-it-5&quot;&gt;It’s Both What You Say and the Way You Say It 5&lt;/h2&gt;
+&lt;p&gt;There’s no point in having great ideas if you don’t communicate them effectively.&lt;/p&gt;
+
+&lt;h2 id=&quot;dry--dont-repeat-yourself-7&quot;&gt;DRY – Don’t Repeat Yourself 7&lt;/h2&gt;
+&lt;p&gt;Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.&lt;/p&gt;
+
+&lt;h2 id=&quot;make-it-easy-to-reuse&quot;&gt;Make It Easy to Reuse&lt;/h2&gt;
+&lt;p&gt;If it’s easy to reuse, people will. Create an environment that supports reuse.&lt;/p&gt;
+
+&lt;h2 id=&quot;eliminate-effects-between-unrelated-things-3&quot;&gt;Eliminate Effects Between Unrelated Things 3&lt;/h2&gt;
+&lt;p&gt;Design components that are self-contained. independent, and have a single, well-defined purpose.&lt;/p&gt;
+
+&lt;h2 id=&quot;there-are-no-final-decisions-5&quot;&gt;There Are No Final Decisions 5&lt;/h2&gt;
+&lt;p&gt;No decision is cast in stone. Instead, consider each as being written in the sand at the beach, and plan for change.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-the-power-of-command-shells&quot;&gt;Use the Power of Command Shells&lt;/h2&gt;
+&lt;p&gt;Use the shell when graphical user interfaces don’t cut it.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-a-single-editor-well&quot;&gt;Use a Single Editor Well&lt;/h2&gt;
+&lt;p&gt;The editor should be an extension of your hand; make sure your editor is configurable, extensible, and programmable.&lt;/p&gt;
+
+&lt;h2 id=&quot;fix-the-problem-not-the-blame-7&quot;&gt;Fix the Problem, Not the Blame 7&lt;/h2&gt;
+&lt;p&gt;It doesn’t really matter whether the bug is your fault or someone else’s – it is still your problem, and it still needs to be fixed.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-panic-when-debugging-7&quot;&gt;Don’t Panic When Debugging 7&lt;/h2&gt;
+&lt;p&gt;Take a deep breath and THINK! about what could be causing the bug.&lt;/p&gt;
+
+&lt;h2 id=&quot;select-isnt-broken-5&quot;&gt;“select” Isn’t Broken. 5&lt;/h2&gt;
+&lt;p&gt;It is rare to find a bug in the OS or the compiler, or even a third-party product or library. The bug is most likely in the application.&lt;/p&gt;
+
+&lt;h2 id=&quot;learn-a-text-manipulation-language&quot;&gt;Learn a Text Manipulation Language.&lt;/h2&gt;
+&lt;p&gt;You spend a large part of each day working with text. Why not have the computer do some of it for you?&lt;/p&gt;
+
+&lt;h2 id=&quot;write-code-that-writes-code&quot;&gt;Write Code That Writes Code&lt;/h2&gt;
+&lt;p&gt;Code generators increase your productivity and help avoid duplication.&lt;/p&gt;
+
+&lt;h2 id=&quot;you-cant-write-perfect-software&quot;&gt;You Can’t Write Perfect Software&lt;/h2&gt;
+&lt;p&gt;Software can’t be perfect. Protect your code and users from the inevitable errors.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-with-contracts&quot;&gt;Design with Contracts&lt;/h2&gt;
+&lt;p&gt;Use contracts to document and verify that code does no more and no less than it claims to do.&lt;/p&gt;
+
+&lt;h2 id=&quot;crash-early&quot;&gt;Crash Early&lt;/h2&gt;
+&lt;p&gt;A dead program normally does a lot less damage than a crippled one.&lt;/p&gt;
+
+&lt;h2 id=&quot;minimize-coupling-between-modules&quot;&gt;Minimize Coupling Between Modules&lt;/h2&gt;
+&lt;p&gt;Avoid coupling by writing “shy” code and applying the Law of Demeter.&lt;/p&gt;
+
+&lt;h2 id=&quot;configure-dont-integrate&quot;&gt;Configure, Don’t Integrate&lt;/h2&gt;
+&lt;p&gt;Implement technology choices for an application as configuration options, not through integration or engineering.&lt;/p&gt;
+
+&lt;h2 id=&quot;put-abstractions-in-code-details-in-metadata&quot;&gt;Put Abstractions in Code, Details in Metadata&lt;/h2&gt;
+&lt;p&gt;Program for the general case, and put the specifics outside the compiled code base.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-using-services&quot;&gt;Design Using Services&lt;/h2&gt;
+&lt;p&gt;Design in terms of services – independent, concurrent objects behind well-defined, consistent interfaces.&lt;/p&gt;
+
+&lt;h2 id=&quot;always-design-for-concurrency&quot;&gt;Always Design for Concurrency&lt;/h2&gt;
+&lt;p&gt;Allow for concurrency, and you’ll design cleaner interfaces with fewer assumptions.&lt;/p&gt;
+
+&lt;h2 id=&quot;refactor-early-refactor-often&quot;&gt;Refactor Early, Refactor Often&lt;/h2&gt;
+&lt;p&gt;Just as you might weed and rearrange a garden, rewrite, rework, and re-architect code when it needs it. Fix the root of the problem.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-to-test&quot;&gt;Design to Test&lt;/h2&gt;
+&lt;p&gt;Start thinking about testing before you write a line of code.&lt;/p&gt;
+
+&lt;h2 id=&quot;workwith-a-user-to-think-like-a-user&quot;&gt;Workwith a User to Think Like a User&lt;/h2&gt;
+&lt;p&gt;It’s the best way to gain insight into how the system will really be used.&lt;/p&gt;
+
+&lt;h2 id=&quot;abstractions-live-longer-than-details&quot;&gt;Abstractions Live Longer than Details&lt;/h2&gt;
+&lt;p&gt;Invest in the abstraction, not the implementation. Abstractions can survive the barrage of changes from different implementations and new technologies.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-think-outside-the-box--find-the-box&quot;&gt;Don’t Think Outside the Box – Find the Box&lt;/h2&gt;
+&lt;p&gt;When faced with an impossible problem, identify the real constraints. Ask yourself: “Does it have to be done this way? Does it have to be done at all?”&lt;/p&gt;
+
+&lt;h2 id=&quot;some-things-are-better-done-than-described&quot;&gt;Some Things Are Better Done than Described&lt;/h2&gt;
+&lt;p&gt;Don’t fall into the specification spiral – at some point you need to start coding.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-be-a-slave-to-formal-methods&quot;&gt;Don’t Be a Slave to Formal Methods.&lt;/h2&gt;
+&lt;p&gt;Don’t blindly adopt any technique without putting it into the context of your development practices and capabilities.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-use-manual-procedures&quot;&gt;Don’t Use Manual Procedures&lt;/h2&gt;
+&lt;p&gt;A shell script or batch file will execute the same instructions, in the same order, time after time.&lt;/p&gt;
+
+&lt;h2 id=&quot;test-early-test-often-test-automatically&quot;&gt;Test Early. Test Often. Test Automatically&lt;/h2&gt;
+&lt;p&gt;Tests that run with every build are much more effective than test plans that sit on a shelf.&lt;/p&gt;
+
+&lt;h2 id=&quot;coding-aint-done-til-all-the-tests-run&quot;&gt;Coding Ain’t Done ‘Til All the Tests Run&lt;/h2&gt;
+&lt;p&gt;‘Nuff said.&lt;/p&gt;
+
+&lt;h2 id=&quot;find-bugs-once&quot;&gt;Find Bugs Once&lt;/h2&gt;
+&lt;p&gt;Once a human tester finds a bug, it should be the last time a human tester finds that bug. Automatic tests should check for it from then on.&lt;/p&gt;
+
+&lt;h2 id=&quot;build-documentation-in-dont-bolt-it-on&quot;&gt;Build Documentation In, Don’t Bolt It On&lt;/h2&gt;
+&lt;p&gt;Documentation created separately from code is less likely to be correct and up to date.&lt;/p&gt;
+
+&lt;h2 id=&quot;gently-exceed-your-users-expectations&quot;&gt;Gently Exceed Your Users’ Expectations&lt;/h2&gt;
+&lt;p&gt;Come to understand your users’ expectations, then deliver just that little bit more.&lt;/p&gt;
+
+&lt;h2 id=&quot;sign-your-work&quot;&gt;Sign Your Work&lt;/h2&gt;
+&lt;p&gt;Craftsmen of an earlier age were proud to sign their work. You should be, too.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 02 Jun 2015 00:00:00 +0100</pubDate>
+				<link>/5a7/2015/06/02/The_Passionate_Prgamatic_Progammer.html</link>
+				<guid isPermaLink="true">/5a7/2015/06/02/The_Passionate_Prgamatic_Progammer.html</guid>
+			</item>
+		
+			<item>
+				<title>Hybris yForms Module</title>
+				<description>&lt;p&gt;&lt;strong&gt;yForms&lt;/strong&gt;  est un nouveau module hybris 5.5&lt;/p&gt;
+
+&lt;p&gt;Le module permet la génération des formulaires dynamiquement , et faire un meilleur séparation du model et la vue . &lt;/p&gt;
+
+&lt;p&gt;Le module est constitué des extension suivant : &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;xyformsservices &lt;/li&gt;
+  &lt;li&gt;xyformsfacades &lt;/li&gt;
+  &lt;li&gt;xyformscockpits &lt;/li&gt;
+  &lt;li&gt;xyformsstorefrontcommons &lt;/li&gt;
+  &lt;li&gt;xyformssamples &lt;/li&gt;
+  &lt;li&gt;Web app orbeon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour savoir plus de détaills sur le mopdule, comment installé et l’utilisé voir Les slides disponibles sur google drive .&lt;/p&gt;
+
+&lt;div class=&quot;drive_chip&quot;&gt;
+	&lt;a href=&quot;https://docs.google.com/presentation/d/1KkDhEv-X6_opA15QuCJmadrhKUHYVvTlIl5RvzgeJKo/edit?usp=drive_web&quot; target=&quot;_blank&quot;&gt;
+     &lt;span dir=&quot;ltr&quot;&gt;Yforms Module&lt;/span&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 28 May 2015 00:00:00 +0100</pubDate>
+				<link>/5a7/2015/05/28/yForms.html</link>
+				<guid isPermaLink="true">/5a7/2015/05/28/yForms.html</guid>
+			</item>
+		
+			<item>
+				<title>ATTD et Specification by example</title>
+				<description>&lt;p&gt;Une introduction à la pratique ATDD avec des illustrations et des examples pratiques.&lt;/p&gt;
+
+&lt;h3 id=&quot;les-slides-sont-disponibles-sur-google-drive&quot;&gt;Les slides sont disponibles sur google drive&lt;/h3&gt;
+
+&lt;div class=&quot;drive_chip&quot;&gt;
+	&lt;a href=&quot;https://docs.google.com/presentation/d/1DfJnhAtz7WeaBMyM5qCVPEivl-ADS0EZw5xUwS7ZRFM//edit?usp=drive_web&quot; target=&quot;_blank&quot;&gt;
+     &lt;span dir=&quot;ltr&quot;&gt;ATTD Spec By Example &lt;/span&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 14 May 2015 00:00:00 +0100</pubDate>
+				<link>/5a7/2015/05/14/Attd_et_specificatuin_by_example.html</link>
+				<guid isPermaLink="true">/5a7/2015/05/14/Attd_et_specificatuin_by_example.html</guid>
+			</item>
+		
+			<item>
+				<title>Behavior Driven Developement</title>
+				<description>&lt;p&gt;Une introduction à la pratique BDD avec des illustrations et des examples pratiques.&lt;/p&gt;
+
+&lt;h4 id=&quot;les-slides-sont-disponibles-sur-google-drive&quot;&gt;Les slides sont disponibles sur google drive&lt;/h4&gt;
+
+&lt;div class=&quot;drive_chip&quot;&gt;
+	&lt;a href=&quot;https://docs.google.com/presentation/d/1Cu35bmAM8g3FD4qmqyAOms1Uv_jvsG8mHKUJnahFrdY/edit?usp=drive_web&quot; target=&quot;_blank&quot;&gt;
+     &lt;span dir=&quot;ltr&quot;&gt;Behavior Driven Developement &lt;/span&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 07 May 2015 00:00:00 +0100</pubDate>
+				<link>/5a7/2015/05/07/BDD_cucumber.html</link>
+				<guid isPermaLink="true">/5a7/2015/05/07/BDD_cucumber.html</guid>
+			</item>
+		
+			<item>
+				<title>EASYMOCK</title>
+				<description>&lt;p&gt;Présentation de l’outil EASYMOCK et quelques techniques et cas d’utilisation&lt;/p&gt;
+
+&lt;h4 id=&quot;les-slides-sont-disponibles-sur-google-drive&quot;&gt;Les slides sont disponibles sur google drive&lt;/h4&gt;
+
+&lt;div class=&quot;drive_chip&quot;&gt;
+	&lt;a href=&quot;https://docs.google.com/presentation/d/1QpdiyhUCWcXLKx5oOBtEm7F9Mtq2XjkiIoAEDfBXEQI/edit?usp=drive_web&quot; target=&quot;_blank&quot;&gt;
+     &lt;span dir=&quot;ltr&quot;&gt;EASYMOCK&lt;/span&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 30 Apr 2015 00:00:00 +0100</pubDate>
+				<link>/5a7/2015/04/30/EASYMOCK.html</link>
+				<guid isPermaLink="true">/5a7/2015/04/30/EASYMOCK.html</guid>
+			</item>
+		
+			<item>
+				<title>Mockito</title>
+				<description>&lt;p&gt;Présentation de l’outil Mockito et quelques techniques et cas d’utilisation&lt;/p&gt;
+
+&lt;h4 id=&quot;les-slides-sont-disponibles-sur-google-drive&quot;&gt;Les slides sont disponibles sur google drive&lt;/h4&gt;
+
+&lt;div class=&quot;drive_chip&quot;&gt;
+	&lt;a href=&quot;https://docs.google.com/presentation/d/16_yfNiFhHtTVXrNCU_akJvQFYhOR_MnMTeCWe-k5ZfQ/edit?usp=drive_web&quot; target=&quot;_blank&quot;&gt;
+     &lt;span dir=&quot;ltr&quot;&gt;Mocktio&lt;/span&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Fri, 17 Apr 2015 00:00:00 +0100</pubDate>
+				<link>/5a7/2015/04/17/Mocktio.html</link>
+				<guid isPermaLink="true">/5a7/2015/04/17/Mocktio.html</guid>
+			</item>
+		
+			<item>
+				<title>Code Review Dojo Seance 2</title>
+				<description>&lt;h2 id=&quot;personnes-prsentes-&quot;&gt;Personnes présentes :&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Youssef El Jaoujat&lt;/li&gt;
+  &lt;li&gt;Youssef Ait bya&lt;/li&gt;
+  &lt;li&gt;Bouchra Taj&lt;/li&gt;
+  &lt;li&gt;Abdellah Aherbil&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;droulement-de-la-sance-&quot;&gt;Déroulement de la séance …&lt;/h2&gt;
+
+&lt;p&gt;Abdellah avait son ordinateur branché sur l’écran commun.
+Il présente la classe a revoir  : &lt;strong&gt;&lt;code&gt;TrCapturePaiementAction&lt;/code&gt;&lt;/strong&gt;
+- Pourquoi cette classe ?
+   + Classe à lui (voulait pas heurter qqn)
+   +  il n’aime pas cette classe !&lt;/p&gt;
+
+&lt;h3 id=&quot;tour-de-table-pour-dfinir-des-points-damlioration-&quot;&gt;Tour de table pour définir des points d’amélioration :&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bcp de if / else : Complexité cyclomatique &lt;/li&gt;
+  &lt;li&gt;Messages en dur (messages d’erreur)&lt;/li&gt;
+  &lt;li&gt;Manque de commentaire (Abdellah est contre les commentaires)&lt;/li&gt;
+  &lt;li&gt;Méthode top longue&lt;/li&gt;
+  &lt;li&gt;On peut faire ça en une ligne, mais c’est déconseillé pourkoi ?&lt;/li&gt;
+  &lt;li&gt;Manque de log sur une transaction nulle &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;refacto-effectu-&quot;&gt;Refacto effectué :&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Extraction d’une partie de l’algortitheme (execution de la capture ogone) dans une méthode séparée.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Pendant le refacto, un &lt;em&gt;“oubli”&lt;/em&gt;, donc une &lt;em&gt;pré-anomalie&lt;/em&gt; (tant que non déclarée, … ce n’et pas une anomalie), a été detecté !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Renommage d’une methode (&lt;code&gt;isValidTransaction&lt;/code&gt;) pas nécessaire, mais cela augmente la lisibilité de l’algorithme (&lt;code&gt;isPaymentTransactionValid&lt;/code&gt;), car cela apporte une information fonctionnelle à l’algo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A la fin du refacto, l’algorithme été plus clair et donc la nécessité des commentaires moins évidentes&lt;/li&gt;
+  &lt;li&gt;Le découpage de la méthode en plusieurs (2) petites méthodes à corrigé le pb de &lt;em&gt;“méthode trop longue&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Certains points relevés n’ont pas été traité (timeboxing de la séance), les plus important oui&lt;/li&gt;
+  &lt;li&gt;Le code est plus propre.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;discussions-annexes&quot;&gt;Discussions annexes&lt;/h2&gt;
+
+&lt;p&gt;Pendant la revue, nous avons traité plusieurs point dont &lt;em&gt;Talking about the Clean Code&lt;/em&gt; … à propos des commentaires.
+Rappel des principes de clean code (cf. présentation faite à Benjamin Berton)&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion-1&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;h3 id=&quot;conseils-pour-orgnaisation-de-dojo--workshops&quot;&gt;Conseils pour orgnaisation de Dojo / Workshops&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;En faire régulierement (de 18h à 19h).&lt;/li&gt;
+  &lt;li&gt;Au début juste les 4 présents à ce dojo&lt;/li&gt;
+  &lt;li&gt;Chaque séance avec un “presenter”&lt;/li&gt;
+  &lt;li&gt;Ce concentrer sur le projet … &lt;/li&gt;
+  &lt;li&gt;Commencer à mettre en place un Workshop pour l’équipe (entre midi et deux), cela ne doit pas être obligatoire, juste du volontariat.
+    &lt;ul&gt;
+      &lt;li&gt;sujets interessants :
+        &lt;ul&gt;
+          &lt;li&gt;Les Tests d’intégrations sur les process (Code de Youssef A)&lt;/li&gt;
+          &lt;li&gt;Un example concret sur la réalisation d’un code en TDD dans hybris (code de bouchra)&lt;/li&gt;
+          &lt;li&gt;Des sessions d’exemple de clean code (Youssef E) : catch (Exception e)&lt;/li&gt;
+          &lt;li&gt;Refaire un refacto, comme durant cette séance, mais en ayant préparer le test : Présenter : Voila comment on doit faire, quelle est la cible (on montre l’exemple,  on accompane pour faire, on essait, on se trompe, on re essait … on y arrive !!!)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;&quot;&gt;26/01/2015&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.printemps.com/medias/?context=bWFzdGVyfGltYWdlc3w0MjA4fGltYWdlL3BuZ3xpbWFnZXMvaGNkL2g4Yi84Nzk4MDUxNDY3Mjk0LnBuZ3xiYjcxMmM3MzY4MmZiZTYwNTAxNjQxNGQ3N2M1YTM2OGVlMWUxMDFhOTM2MDUyZTViZmI0Yzc2YzFkZTQyOTk5&quot; alt=&quot;Printemps&quot; /&gt; &lt;strong&gt;TEAM&lt;/strong&gt; @ &lt;img src=&quot;http://www.sqli.com/var/sqli/storage/images/parametrages/1989-5-fre-FR/Parametrages_logo_small.png&quot; alt=&quot;SQli&quot; /&gt;&lt;/p&gt;
+</description>
+				<pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
+				<link>/coding%20dojo/2015/01/26/code_review_dojo_2.html</link>
+				<guid isPermaLink="true">/coding%20dojo/2015/01/26/code_review_dojo_2.html</guid>
+			</item>
+		
+	</channel>
+</rss>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Code Review Dojo Seance 2</title>
+	
+	<meta name="author" content="">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			
+			
+			<a class="navbar-brand" href="/">
+				<img src="http://www.gravatar.com/avatar/?s=35" class="img-circle" />
+				
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/authors.html">Auteur</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/authors.html"><i class="fa fa-tags"></i>Auteurs</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs">
+		<!-- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+	<span class="logo img-circle"> Printemps Team </span>
+	</a>
+	<h3 class="title">
+        <a href="/"></a>
+    </h3>
+</header>
+
+
+
+<div id="contact-list" class="text-center">
+	
+</div>
+<!-- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 col-sm-offset-3">
+		<div class="page-header">
+  <h1>Code Review Dojo Seance 2 </h1>
+</div>
+	
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   26
+	   January 
+	   2015
+	 </span>
+	  <div class="article_body">
+	  <h2 id="personnes-prsentes-">Personnes présentes :</h2>
+
+<ul>
+  <li>Youssef El Jaoujat</li>
+  <li>Youssef Ait bya</li>
+  <li>Bouchra Taj</li>
+  <li>Abdellah Aherbil</li>
+</ul>
+
+<h2 id="droulement-de-la-sance-">Déroulement de la séance …</h2>
+
+<p>Abdellah avait son ordinateur branché sur l’écran commun.
+Il présente la classe a revoir  : <strong><code>TrCapturePaiementAction</code></strong>
+- Pourquoi cette classe ?
+   + Classe à lui (voulait pas heurter qqn)
+   +  il n’aime pas cette classe !</p>
+
+<h3 id="tour-de-table-pour-dfinir-des-points-damlioration-">Tour de table pour définir des points d’amélioration :</h3>
+
+<ul>
+  <li>Bcp de if / else : Complexité cyclomatique </li>
+  <li>Messages en dur (messages d’erreur)</li>
+  <li>Manque de commentaire (Abdellah est contre les commentaires)</li>
+  <li>Méthode top longue</li>
+  <li>On peut faire ça en une ligne, mais c’est déconseillé pourkoi ?</li>
+  <li>Manque de log sur une transaction nulle </li>
+</ul>
+
+<h3 id="refacto-effectu-">Refacto effectué :</h3>
+
+<ul>
+  <li>Extraction d’une partie de l’algortitheme (execution de la capture ogone) dans une méthode séparée.</li>
+</ul>
+
+<blockquote>
+  <p>Pendant le refacto, un <em>“oubli”</em>, donc une <em>pré-anomalie</em> (tant que non déclarée, … ce n’et pas une anomalie), a été detecté !</p>
+</blockquote>
+
+<ul>
+  <li>Renommage d’une methode (<code>isValidTransaction</code>) pas nécessaire, mais cela augmente la lisibilité de l’algorithme (<code>isPaymentTransactionValid</code>), car cela apporte une information fonctionnelle à l’algo.</li>
+</ul>
+
+<h4 id="conclusion">Conclusion</h4>
+
+<ul>
+  <li>A la fin du refacto, l’algorithme été plus clair et donc la nécessité des commentaires moins évidentes</li>
+  <li>Le découpage de la méthode en plusieurs (2) petites méthodes à corrigé le pb de <em>“méthode trop longue</em>.</li>
+  <li>Certains points relevés n’ont pas été traité (timeboxing de la séance), les plus important oui</li>
+  <li>Le code est plus propre.</li>
+</ul>
+
+<h2 id="discussions-annexes">Discussions annexes</h2>
+
+<p>Pendant la revue, nous avons traité plusieurs point dont <em>Talking about the Clean Code</em> … à propos des commentaires.
+Rappel des principes de clean code (cf. présentation faite à Benjamin Berton)</p>
+
+<h2 id="conclusion-1">Conclusion</h2>
+
+<h3 id="conseils-pour-orgnaisation-de-dojo--workshops">Conseils pour orgnaisation de Dojo / Workshops</h3>
+<ul>
+  <li>En faire régulierement (de 18h à 19h).</li>
+  <li>Au début juste les 4 présents à ce dojo</li>
+  <li>Chaque séance avec un “presenter”</li>
+  <li>Ce concentrer sur le projet … </li>
+  <li>Commencer à mettre en place un Workshop pour l’équipe (entre midi et deux), cela ne doit pas être obligatoire, juste du volontariat.
+    <ul>
+      <li>sujets interessants :
+        <ul>
+          <li>Les Tests d’intégrations sur les process (Code de Youssef A)</li>
+          <li>Un example concret sur la réalisation d’un code en TDD dans hybris (code de bouchra)</li>
+          <li>Des sessions d’exemple de clean code (Youssef E) : catch (Exception e)</li>
+          <li>Refaire un refacto, comme durant cette séance, mais en ayant préparer le test : Présenter : Voila comment on doit faire, quelle est la cible (on montre l’exemple,  on accompane pour faire, on essait, on se trompe, on re essait … on y arrive !!!)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<p><em><a href="">26/01/2015</a></em></p>
+
+<p><img src="http://www.printemps.com/medias/?context=bWFzdGVyfGltYWdlc3w0MjA4fGltYWdlL3BuZ3xpbWFnZXMvaGNkL2g4Yi84Nzk4MDUxNDY3Mjk0LnBuZ3xiYjcxMmM3MzY4MmZiZTYwNTAxNjQxNGQ3N2M1YTM2OGVlMWUxMDFhOTM2MDUyZTViZmI0Yzc2YzFkZTQyOTk5" alt="Printemps" /> <strong>TEAM</strong> @ <img src="http://www.sqli.com/var/sqli/storage/images/parametrages/1989-5-fre-FR/Parametrages_logo_small.png" alt="SQli" /></p>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#coding dojo-ref">
+					coding dojo <span>(1)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		
+		<ul class="list-inline">
+		  <li><i class="fa fa-tags"></i></li>
+		  
+		  
+			 
+				<li>
+					<a href="/tags.html#TDD-ref">
+					TDD <span>(6)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#Junit-ref">
+					Junit <span>(4)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#easyMock-ref">
+					easyMock <span>(4)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#PowerMock-ref">
+					PowerMock <span>(4)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#Mockito-ref">
+					Mockito <span>(3)</span>
+					
+					</a>
+				</li>
+			
+		  
+		  
+		</ul>
+		  
+
+		<hr>
+
+		<div>
+
+<!-- Look the author details up from the site config. -->
+
+
+<!-- Output author details if some exist. -->
+
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Code Review Dojo Seance 2"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="//www.gravatar.com/avatar/d2aa3e50addfbf64171f55b2d827b655?s=135" class="img-rounded author-image" />
+        <h4 class="section-title author-name">Remi Goyard</h4>
+        <p class="author-bio">Born to code</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous disabled"><a>&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/5a7/2015/04/17/Mocktio.html" title="Mockito">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+		<footer>
+			<hr/>
+			
+			<p>
+				&copy; Le Blog de l'equipe Printemps .
+			
+			</p>
+			<img src="/assets/media/printemps_logo.png" alt="Printemps">
+             <img src="/assets/media/sqli_logo_small.png" alt="SQli" class="sqli_logo">
+
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/masonry/js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>
+
